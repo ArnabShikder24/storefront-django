@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Virtual env (Pipenv or venv)
+.venv/
+env/
+venv/
+Pipfile.lock
+
+# VSCode
+.vscode/
+
+# Django migrations (optional)
+*/migrations/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*/migrations/*.pyc
+
+# OS-specific
+.DS_Store
+Thumbs.db
